@@ -131,6 +131,7 @@ while run:
         if sprite.collide_rect(packman,final_sprite):
             finish = True
             img = image.load('thumb.jpg')
+            print("Cool!")
             window.fill((255,255,255))
             window.blit(transform.scale(img,(win_width,win_height)),(0,0))
     display.update()
